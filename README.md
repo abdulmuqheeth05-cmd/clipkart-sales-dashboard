@@ -42,7 +42,7 @@ Give a quick view of sales performance and answer three questions:
 - Data modelling and formatting in Power BI
 
 ## Data
-- File: `data/ClipKart_ecommerce_data.csv`
+- File: `ClipKart_ecommerce_data.csv`
 - Columns: Date, OrderID, Category, Product, City, Price, Quantity, Revenue
 - Calculated column: `Revenue = ClipKart_ecommerce_data[Quantity] * ClipKart_ecommerce_data[Price]`
 - Measures: Total Orders, Avg Order Value, Top Product Revenue
@@ -51,16 +51,13 @@ Give a quick view of sales performance and answer three questions:
 ```
 clipkart-sales-dashboard/
 ├── README.md
-├── ClipKart_Dashboard.pbix      # Power BI file
-├── ClipKart_Dashboard.pdf       # PDF export of the report
-├── data/
-│   └── ClipKart_ecommerce_data.csv
-└── images/
-    └── dashboard.png            # Dashboard screenshot
+├── ClipKart report FY - 2024.pbix   # Power BI file
+├── ClipKart_Dashboard.pdf           # PDF export of the report
+└── ClipKart_ecommerce_data.csv      # Dataset
 ```
 
 ## How to open
-1. Download `ClipKart_Dashboard.pbix`.
+1. Download `ClipKart report FY - 2024.pbix`.
 2. Open it in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free, Windows only).
 3. Use the Category, City and Date slicers to explore the data.
 
